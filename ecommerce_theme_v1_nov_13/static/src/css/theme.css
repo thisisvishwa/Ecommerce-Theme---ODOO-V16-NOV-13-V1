@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Header Styles */
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
+
+/* Carousel Styles */
+.carousel {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Product Page Styles */
+.product-description {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.product-specifications {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.product-reviews {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Category Page Styles */
+.category-filter {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.category-sorting {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Cart and Checkout Styles */
+.cart-process {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.checkout-process {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+/* Custom Field Styles */
+.custom-field {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Custom View Styles */
+.custom-view {
+    font-size: 14px;
+    color: #ffffff;
+}

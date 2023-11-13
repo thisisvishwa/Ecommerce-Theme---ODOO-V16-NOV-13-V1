@@ -1,0 +1,57 @@
+```xml
+<odoo>
+    <data>
+        <!-- Homepage Template -->
+        <template id="homepage_template" name="Homepage">
+            <div id="product-carousel" class="carousel">
+                <!-- Carousel items will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="categories" class="categories">
+                <!-- Categories will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="promotional-banners" class="banners">
+                <!-- Banners will be dynamically loaded with JavaScript -->
+            </div>
+        </template>
+
+        <!-- Product Page Template -->
+        <template id="product_page_template" name="Product Page">
+            <div id="product-description" class="description">
+                <!-- Product description will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="product-specifications" class="specifications">
+                <!-- Product specifications will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="product-reviews" class="reviews">
+                <!-- Product reviews will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="related-products" class="related">
+                <!-- Related products will be dynamically loaded with JavaScript -->
+            </div>
+        </template>
+
+        <!-- Category Page Template -->
+        <template id="category_page_template" name="Category Page">
+            <div id="category-filter" class="filter">
+                <!-- Filter options will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="category-sorting" class="sorting">
+                <!-- Sorting options will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="product-comparison" class="comparison">
+                <!-- Product comparison features will be dynamically loaded with JavaScript -->
+            </div>
+        </template>
+
+        <!-- Cart and Checkout Process Template -->
+        <template id="cart_checkout_template" name="Cart and Checkout">
+            <div id="cart-process" class="cart">
+                <!-- Cart process will be dynamically loaded with JavaScript -->
+            </div>
+            <div id="checkout-process" class="checkout">
+                <!-- Checkout process will be dynamically loaded with JavaScript -->
+            </div>
+        </template>
+    </data>
+</odoo>
+```

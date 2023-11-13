@@ -1,0 +1,52 @@
+```xml
+<odoo>
+    <data>
+        <!-- Product Template Form View -->
+        <record id="product_template_form_view" model="ir.ui.view">
+            <field name="name">product.template.form</field>
+            <field name="model">product.template</field>
+            <field name="arch" type="xml">
+                <form string="Product">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="gpu_type"/>
+                                <field name="ram_size"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Product Template Tree View -->
+        <record id="product_template_tree_view" model="ir.ui.view">
+            <field name="name">product.template.tree</field>
+            <field name="model">product.template</field>
+            <field name="arch" type="xml">
+                <tree string="Products">
+                    <field name="name"/>
+                    <field name="gpu_type"/>
+                    <field name="ram_size"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Product Template Action -->
+        <record id="action_product_template" model="ir.actions.act_window">
+            <field name="name">Products</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.template</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="product_template_tree_view"/>
+        </record>
+
+        <!-- Product Template Menu -->
+        <menuitem id="menu_product_template" name="Products" parent="base.menu_sales" sequence="1" action="action_product_template"/>
+    </data>
+</odoo>
+```
